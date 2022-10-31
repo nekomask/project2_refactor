@@ -5,12 +5,15 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 const isLoggedIn = require('../middleware/isLoggedIn')
 const alert =require('alert')
+
+
 // INDEX: GET
 // /users
 // Gives a page displaying all the users
 router.get('/login', (req, res)=>{
     res.render('login.ejs')
 })
+
 router.post("/login", async (req, res)=>{
     try{
         // Grab the user from the database with the username from the form
@@ -40,17 +43,20 @@ router.post("/login", async (req, res)=>{
         res.send(500)
     }
 })
+
 router.get('/logout', (req, res)=>{
     req.session.destroy(()=>{
         res.redirect("/recipes")
     })
 })
+
 router.get('/',  async (req, res)=>{
     const users = await User.find();
     res.render('users/index.ejs', {
         users: users,
     })
 })
+
 // NEW: GET
 // /users/new
 // Shows a form to create a new user
@@ -123,6 +129,7 @@ router.put('/:id', async (req, res)=>{
         res.sendStatus(500)
    }
 })
+
 // DELETE: DELETE
 // /users/:id
 // DELETE THE USER WITH THE SPECIFIC ID
