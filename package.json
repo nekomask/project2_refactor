@@ -15,6 +15,7 @@
     "mongodb": "^4.4.1",
     "mongoose": "^6.3.4",
     "multer": "^1.4.4",
+    "node": "^19.0.0",
     "nodemon": "^2.0.15"
   },
   "name": "recime",
