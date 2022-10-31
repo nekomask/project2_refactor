@@ -1,4 +1,7 @@
 {
+   "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "alert": "^5.0.10",
     "bcrypt": "^5.0.1",
@@ -28,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nourddeen/ReciMe.git"
+    "url": "git+https://github.com/nekomask/project2_refactor.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nourddeen/ReciMe/issues"
+    "url": "https://github.com/nekomask/project2_refactor/issues"
   },
-  "homepage": "https://github.com/nourddeen/ReciMe#readme"
+  "homepage": "https://github.com/nekomask/project2_refactor#readme"
 }
