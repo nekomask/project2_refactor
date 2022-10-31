@@ -21,8 +21,8 @@
     "multer": "^1.4.4",
     "nodemon": "^2.0.15"
   },
-  "name": "recime",
-  "description": "Have you ever been inspired to cook meals for yourself or others but never knew exactly where to start? Our app ReciMe allows you to publish your very own recipe all while being part of the culinary culture and having the ability to learn from others.",
+  "name": "hells_spoon",
+  "description": "Have you ever been inspired to cook meals for yourself or others but never knew exactly where to start? Our app Hell's Spoon allows you to publish your very own recipe all while being part of the culinary culture and having the ability to learn from others.",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
